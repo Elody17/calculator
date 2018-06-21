@@ -1,0 +1,174 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 310, 223
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "计算器"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDITSHOW1,7,7,295,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHOW2,52,25,250,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDITSHOW_RESULT,115,43,187,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    DEFPUSHBUTTON   "清除",IDCLEAR,18,202,50,14
+    PUSHBUTTON      "退出",IDCANCEL,136,202,50,14
+    LTEXT           "后缀表达式",IDC_STATIC,7,29,41,8
+    PUSHBUTTON      "（",IDC_BUTTON_LEFT,7,87,24,13
+    PUSHBUTTON      "）",IDC_BUTTON_RIGHT,40,87,24,13
+    PUSHBUTTON      "7",IDC_BUTTON7,7,109,24,13
+    PUSHBUTTON      "4",IDC_BUTTON4,7,131,24,13
+    PUSHBUTTON      "1",IDC_BUTTON1,7,153,24,13
+    PUSHBUTTON      "8",IDC_BUTTON8,40,109,24,13
+    PUSHBUTTON      "5",IDC_BUTTON5,40,131,24,13
+    PUSHBUTTON      "2",IDC_BUTTON2,40,153,24,13
+    PUSHBUTTON      "9",IDC_BUTTON9,73,109,24,13
+    PUSHBUTTON      "6",IDC_BUTTON6,73,131,24,13
+    PUSHBUTTON      "3",IDC_BUTTON3,73,153,24,13
+    PUSHBUTTON      "pi($)",IDC_BUTTON_PI,73,87,24,13
+    PUSHBUTTON      "+",IDC_BUTTON_ADD,106,109,24,13
+    PUSHBUTTON      "-",IDC_BUTTON_REDUCE,106,131,24,13
+    PUSHBUTTON      "*",IDC_BUTTON_MULTIPLY,106,153,24,13
+    PUSHBUTTON      "/",IDC_BUTTON_DIVIDE,106,175,24,13
+    PUSHBUTTON      "%",IDC_BUTTON_PERSENT,106,87,24,13
+    PUSHBUTTON      "0",IDC_BUTTON0,7,175,24,13
+    PUSHBUTTON      ".",IDC_BUTTON_POINT,40,175,24,13
+    PUSHBUTTON      "sin(S)",IDC_BUTTON_SIN,139,87,38,13
+    PUSHBUTTON      "cos(C)",IDC_BUTTON_COS,139,109,38,13
+    PUSHBUTTON      "tan(T)",IDC_BUTTON_TAN,139,131,38,13
+    PUSHBUTTON      "x^y",IDC_BUTTON_XY,139,153,38,13
+    PUSHBUTTON      "=",IDC_BUTTON_RESULT,254,203,38,13
+    CONTROL         "数值表达式",IDC_RADIO_NUMMBER,"Button",
+                    BS_AUTORADIOBUTTON,7,65,51,12
+    CONTROL         "字母表达式",IDC_RADIO,"Button",BS_AUTORADIOBUTTON,100,
+                    66,51,12
+    CONTROL         "函数运算",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,193,67,
+                    51,12
+    LTEXT           "求值结果",IDC_STATIC,7,47,33,8
+    PUSHBUTTON      "mod(@)",IDC_BUTTON_MOD,139,175,38,13
+    PUSHBUTTON      "a",IDC_BUTTON_PERSENTa,186,87,16,13
+    PUSHBUTTON      "b",IDC_BUTTON_PERSENTb,211,87,16,13
+    PUSHBUTTON      "c",IDC_BUTTON_PERSENTc,236,87,16,13
+    PUSHBUTTON      "d",IDC_BUTTON_PERSENTd,261,87,16,13
+    PUSHBUTTON      "f",IDC_BUTTON_PERSENTf,186,109,16,13
+    PUSHBUTTON      "g",IDC_BUTTON_PERSENTg,211,109,16,13
+    PUSHBUTTON      "h",IDC_BUTTON_PERSENTh,236,109,16,13
+    PUSHBUTTON      "i",IDC_BUTTON_PERSENTi,261,109,16,13
+    PUSHBUTTON      "k",IDC_BUTTON_PERSENTk,186,131,16,13
+    PUSHBUTTON      "l",IDC_BUTTON_PERSENTl,211,131,16,13
+    PUSHBUTTON      "m",IDC_BUTTON_PERSENTm,236,131,16,13
+    PUSHBUTTON      "n",IDC_BUTTON_PERSENTn,261,131,16,13
+    PUSHBUTTON      "s",IDC_BUTTON_PERSENTs,261,153,16,13
+    PUSHBUTTON      "p",IDC_BUTTON_PERSENTp,186,153,16,13
+    PUSHBUTTON      "q",IDC_BUTTON_PERSENTq,211,153,16,13
+    PUSHBUTTON      "r",IDC_BUTTON_PERSENTr,236,153,16,13
+    PUSHBUTTON      "u",IDC_BUTTON_PERSENTu,186,175,16,13
+    PUSHBUTTON      "v",IDC_BUTTON_PERSENTv,211,175,16,13
+    PUSHBUTTON      "e",IDC_BUTTON_PERSENTe,286,87,16,13
+    PUSHBUTTON      "j",IDC_BUTTON_PERSENTj,286,109,16,13
+    PUSHBUTTON      "o",IDC_BUTTON_PERSENTo,286,131,16,13
+    PUSHBUTTON      "t",IDC_BUTTON_PERSENTt,286,153,16,13
+    PUSHBUTTON      "w",IDC_BUTTON_PERSENTw,236,175,16,13
+    PUSHBUTTON      "x",IDC_BUTTON_PERSENTx,261,175,16,13
+    PUSHBUTTON      "y",IDC_BUTTON_PERSENTy,286,175,16,13
+    PUSHBUTTON      "z",IDC_BUTTON_PERSENTz,286,67,16,13
+    PUSHBUTTON      "n!",IDC_BUTTON_FACTORIAL,73,175,24,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        VERTGUIDE, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 216
+        HORZGUIDE, 11
+        HORZGUIDE, 29
+        HORZGUIDE, 93
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "caculater3.ico"
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
